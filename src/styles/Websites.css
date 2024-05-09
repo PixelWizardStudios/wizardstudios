@@ -1,0 +1,23 @@
+.menuTitle {
+    color: red;
+}
+
+.websites {
+    display: inline-flex;
+    background-color:#4c4c53;
+}
+
+img {
+    width:270px;
+    height: auto;
+}
+
+#red_potion {
+    width: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+    .websites {
+        flex-direction: column;
+    }
+}

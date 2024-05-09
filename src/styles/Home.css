@@ -1,0 +1,23 @@
+#title {
+    color:#305f92;
+}
+
+.statement_head {
+    color:#e1e8ef
+}
+
+.statement {
+    color: #e1e8ef;
+    margin: 0 auto;
+    width: 660px;
+    text-align: center;
+    font-size: 26px;
+}
+
+@media only screen and (max-width: 600px) {
+    .statement {
+        font-size: 20px;
+        line-height: 1.4;
+        width: auto;
+    }
+}

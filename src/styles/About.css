@@ -1,0 +1,18 @@
+h1 {
+        color:#305f92;
+}
+
+p {
+    color:#e1e8ef;    
+    margin: 0 auto;
+    width: 660px;
+    text-align: center;
+    font-size: 26px;
+}
+
+@media only screen and (max-width: 600px) {
+    p {
+      font-size: 20px;
+      line-height: 1.4; 
+    }
+  }
