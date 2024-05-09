@@ -1,7 +1,5 @@
 import React from 'react';
 import "../styles/Contact.css";
-import Image from "../assets/wizard.gif";
-
 
 function Contact() {
   return (
