@@ -13,7 +13,7 @@ function Navbar() {
     return (
       <div className="navbar">
         <div className="leftSide" id={openLinks ? "open" : "close"}>
-          <img src={Logo} />
+          <img src={Logo} alt="shelf"/>
           <div>
           <h1 id="title">Pixel Wizard Studios</h1>
         </div>
@@ -30,7 +30,7 @@ function Navbar() {
           <Link to="/about"> About </Link>
           <Link to="/contact"> Contact </Link>
           <button onClick={toggleNavbar}>
-            <img src={Shelf} />
+            <img src={Shelf} alt="shelf"/>
           </button>
         </div>
       </div>

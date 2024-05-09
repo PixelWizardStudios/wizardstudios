@@ -6,9 +6,6 @@ import Image from "../assets/wizard.gif";
 function Contact() {
   return (
     <div className="contact">
-        {/* <div
-        className="leftSide"
-        style={{ backgroundImage: `url(${Image})`}}></div> */}
         <div className="rightSide">
             <h1>Contact Us</h1>
 
