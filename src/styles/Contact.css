@@ -25,3 +25,13 @@ p {
     white-space: normal;
     font-family: 'Courier New', Courier, monospace;
 }
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 29px;
+    }
+    
+    P {
+        font-size: 20px;
+    }
+  }

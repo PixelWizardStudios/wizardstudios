@@ -22,8 +22,8 @@ body {
 
 @media only screen and (max-width: 600px) {
   body {
-    font-size: 14px; /* Adjust font size for smaller screens */
-    line-height: 1.4; /* Adjust line height for smaller screens */
+    font-size: 14px; 
+    line-height: 1.4; 
   }
 }
 

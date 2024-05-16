@@ -1,22 +1,32 @@
 import React from 'react'
-import redPotion from "../assets/red_potion.png";
-import greenPotion from "../assets/green_potion.png";
+import redPotion from "../assets/redPotiongif.gif";
+import greenPotion from "../assets/greenPotiongif.gif";
+import purplePotion from "../assets/purplePotiongif.gif";
+import { useTranslation } from 'react-i18next';
 import "../styles/Websites.css";
 
-function Websites() {
+function Websites( )  {
+
+  const { t } = useTranslation();
+
   return (
     <>
         <div className="menu">
-            <h1 className="menuTitle" >Websites</h1>
+            <h1 className="menuTitle" > {t('description.website1')} </h1>
             <div className="websites">
-            <a href="https://carlossenpai.github.io/MariosAutoService/" className="potions">
+              <a href="https://carlossenpai.github.io/MariosAutoService/" className="potions">
                     <img src={redPotion} alt="Red potion to Mario Website" id="red_potion" />
-            </a>
+              </a>
     
-            <a href="https://carlossenpai.github.io/LlanteriaLuigi/" className="potions">
+              <a href="https://carlossenpai.github.io/LlanteriaLuigi/" className="potions">
                     <img src={greenPotion}  alt="Green potion to Luigi Website" id="green_potion" />
-                </a>
-            </div>
+            </a>
+              <a href="https://elcompawaluigi.netlify.app/">
+                <img src={purplePotion} alt="Purple potion to Waluigi Website" id="purple_potion" />
+              </a>
+
+              </div>
+
       
         </div>
 

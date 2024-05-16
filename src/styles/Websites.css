@@ -20,4 +20,14 @@ img {
     .websites {
         flex-direction: column;
     }
+
+    #red_potion {
+        width: 150px;
+        height: 150px;
+    }
+
+    #green_potion {
+        width: 150px;
+        height: 140px;
+    }
 }
