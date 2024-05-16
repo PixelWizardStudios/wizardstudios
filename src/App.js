@@ -16,7 +16,7 @@ function App() {
 
   const { t } = useTranslation();
 
-  const [language, setLanguage ] = useState('en');
+  const [ setLanguage ] = useState('en');
 
   const lngs = {
     en: { nativeName: "English" },
