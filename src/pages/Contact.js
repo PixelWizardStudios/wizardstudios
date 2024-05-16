@@ -8,7 +8,7 @@ function Contact() {
             <h1>Contact Us</h1>
 
             <h2>Email</h2>
-            <p>codingwizardstudios@gmail.com</p>
+            <p>pixelwizardstudiosdenver@gmail.com</p>
 
             <h2>Phone:</h2>
             <p>+1 720-434-6807</p>
