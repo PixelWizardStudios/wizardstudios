@@ -22,12 +22,17 @@ img {
     }
 
     #red_potion {
-        width: 150px;
-        height: 150px;
+        width: 100px;
+        height: 100px;
     }
 
     #green_potion {
-        width: 150px;
-        height: 140px;
+        width: 90px;
+        height: 90px;
+    }
+
+    #purple_potion {
+        width: 120px;
+        height: 120px;
     }
 }

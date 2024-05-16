@@ -11,6 +11,7 @@ function Footer({ lngs, useTranslation}) {
 
   return (
     <>
+    
       <div className="footer">
         <div className="socialMedia">
         <InstagramIcon /> <TwitterIcon /> <FacebookIcon /> <LinkedInIcon />
