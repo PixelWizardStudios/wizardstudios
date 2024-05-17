@@ -46,10 +46,6 @@
 .navbar .rightSide svg {
     font-size: 40px;
   }
-  
-  .navbar #open {
-    padding-left: 0px;
-  }
 
   .navbar #open img {
     display: none;
@@ -103,7 +99,6 @@
     .navbar #open .hiddenLinks {
       display: flex;
       flex-direction: column;
-      /* align-items: flex-start; */
       margin-left: 0;
     }
   
