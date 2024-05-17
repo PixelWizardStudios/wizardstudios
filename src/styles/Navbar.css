@@ -1,5 +1,5 @@
 .navbar {
-    width: 100%;
+    width: 105%;
     height: 100px;
     background-color: #282845;
     display: flex;
@@ -50,6 +50,7 @@
   .navbar #open {
     padding-left: 0px;
   }
+
   .navbar #open img {
     display: none;
   }
@@ -97,6 +98,18 @@
   @media only screen and (max-width: 600px) {
     .navbar .rightSide a {
       display: none;
+    }
+
+    .navbar #open .hiddenLinks {
+      display: flex;
+      flex-direction: column;
+      /* align-items: flex-start; */
+      margin-left: 0;
+    }
+  
+    .navbar #open a {
+      width: auto;
+      margin: 1px 0;
     }
   
     .navbar .rightSide {
