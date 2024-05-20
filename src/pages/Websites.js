@@ -14,7 +14,7 @@ function Websites( )  {
         <div className="menu">
             <h1 className="menuTitle" > {t('description.website1')} </h1>
             <div className="websites">
-              <a href="https://carlossenpai.github.io/MariosAutoService/" className="potions">
+              <a href="https://mariosautoservice.netlify.app/" className="potions">
                     <img src={redPotion} alt="Red potion to Mario Website" id="red_potion" />
               </a>
     
