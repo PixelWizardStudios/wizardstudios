@@ -130,4 +130,5 @@
   @media only screen and (max-width: 420px) {
     .navbar {
         position: static;
+        background: violet;
     }}
