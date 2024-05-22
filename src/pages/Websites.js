@@ -18,7 +18,7 @@ function Websites( )  {
                     <img src={redPotion} alt="Red potion to Mario Website" id="red_potion" />
               </a>
     
-              <a href="https://carlossenpai.github.io/LlanteriaLuigi/" className="potions">
+              <a href="https://llanterialuigi.netlify.app/" className="potions">
                     <img src={greenPotion}  alt="Green potion to Luigi Website" id="green_potion" />
             </a>
               <a href="https://elcompawaluigi.netlify.app/">
