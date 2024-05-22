@@ -35,3 +35,9 @@
   .footer p {
     color: white;
   }
+
+  @media only screen and (max-width: 420px) {
+    .footer {
+        position: static;
+        background: violet;
+    }}
